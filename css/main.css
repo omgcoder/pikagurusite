@@ -1,24 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-/* Fonts & icons */
-@font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'codropsicons';
-	src: url("../fonts/codropsicons/codropsicons.eot");
-	src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");
-}
-
-@font-face {
-	font-family: 'camera-icons';
-	src:url('../fonts/camera-icons/camera-icons.eot?7h6q4p');
-	src:url('../fonts/camera-icons/camera-icons.eot?#iefix7h6q4p') format('embedded-opentype'),
-		url('../fonts/camera-icons/camera-icons.woff?7h6q4p') format('woff'),
-		url('../fonts/camera-icons/camera-icons.ttf?7h6q4p') format('truetype'),
-		url('../fonts/camera-icons/camera-icons.svg?7h6q4p#camera-icons') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+@import url(http://fonts.googleapis.com/css?family=Megrim:400,700);
 
 /* Helpers & resets */
 *,
@@ -46,7 +26,7 @@ body {
 	overflow: hidden;
 	position: relative;
 	overflow-y: scroll;
-	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Megrim', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
